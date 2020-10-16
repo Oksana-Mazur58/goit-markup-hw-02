@@ -1,13 +1,16 @@
-/*main color text  #757575;*/
+/* :root{
+  -- primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent: #2196f3;
+}
+main color text  #757575;*/
 
-/*second color #757575; */
+/*second colorbackground: #212121;*/
 /*acent #2196F3;*/
 /*white #FFFFFF; */
-/*:root {
-  primary-text-color: #757575;
-  title-text-color: #212121;
-  accent: #2196f3;
-}*/
+/*
+
+*/
 
 /*Style header*/
 .list {
@@ -25,9 +28,64 @@ body {
   color: #2196f3;
 }
 .site-nav .link {
-  color: #000000;
+  color: #212121;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: #2196f3;
+}
+/*Contacts*/
+.contact .link {
+  color: #757575;
+}
+.contact .link:focus,
+.contact .link:hover {
+  color: #2196f3;
+}
+
+
+/*Hiro*/
+.hiro {
+  background: #2f303a;
+}
+.hiro-title {
+  color: #ffffff;
+}
+/*Section*/
+.section-title {
+  color: #212121;
+}
+/*Features*/
+.features .title {
+  color: #212121;
+}
+/*Our team*/
+.our-team .name {
+  color: #212121;
+}
+/*Footer*/
+.footer {
+  background: #2f303a;
+}
+
+.logo-footer {
+  color: #ffffff;
+}
+|
+
+.footer-contact {
+  color: #ffffff
+}
+/*Portfolio*/
+.portolio-list{
+  background:  #757575;
+  color:  #212121;
+  text-transform : uppercase ;
+
+}
+.portolio-list :hover,
+.portolio-list :focus{
+  background: #2196f3;
+  color: #ffffff;
+
 }
