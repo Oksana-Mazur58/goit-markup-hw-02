@@ -148,21 +148,44 @@ text-align: center;
   letter-spacing: 0.03em;
   text-decoration: none;
   font-style: normal;
-
-
-
 }
 
 
 /*Portfolio*/
+.portfolio-link{
+  text-decoration: none;
+}
+
+
 .portolio-list{
+  
   background: #F5F4FA;
   color:  #212121;
-
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  text-align: center;
 }
 .portolio-list:hover,
 .portolio-list:focus{
   background: #2196f3;
   color: #ffffff;
+
+}
+.portfolio-foto .portfolio-work{
+  color: #212121;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2 ;
+  letter-spacing: 0.06em;
+  
+}
+.portfolio-foto .work-section{
+  color: #757575;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+
 
 }
